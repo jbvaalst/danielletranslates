@@ -823,6 +823,7 @@ section {
     padding-right: 0rem;
   }
 
+
   .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
@@ -831,6 +832,8 @@ section {
   .left-header .h-shape {
     display: none;
   }
+
+
   .left-header .image {
     width: 90% !important;
     margin: 0 auto !important;
@@ -862,11 +865,16 @@ section {
   }
 
   .header-content {
+    display: inline;
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
 
   .left-header .h-shape {
+    display: none;
+  }
+
+  .right-header .logo {
     display: none;
   }
 
