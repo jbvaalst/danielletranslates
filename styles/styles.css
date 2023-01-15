@@ -728,7 +728,7 @@ section {
 .about-container .left-about p {
   padding-left: 0;
 }
-/* 
+
 @media screen and (max-width: 1440px) {
   .container {
     padding: 7rem 11rem;
@@ -759,8 +759,9 @@ section {
     font-size: 5.5rem;
   }
 }
-*/
 
+
+/*ipad horizontaal */
 @media screen and (max-width: 1280px) {
   .blogs {
     grid-template-columns: repeat(2, 1fr);
@@ -776,8 +777,8 @@ section {
   }
 }
 
-/*ipad horizontal*/
-@media screen and (max-width: 1080px) {
+/*iphone horizontal en ipad vertical*/
+@media screen and (max-width: 850px) {
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
